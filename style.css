@@ -1,0 +1,56 @@
+@font-face {
+	font-family: はんなり;
+	src: url("Hannari.otf");
+}
+body {
+	font-family: "はんなり","メイリオ", sans-serif;
+	background-image: url("img/のうりんむらロゴ透過.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.icon {
+	width:			256px;
+	height:			256px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;	/* 相対位置指定 */
+	border-radius: 125px;
+	display: inline-block;
+}
+.icon .caption {
+	font-size:		150%;
+	text-align: 		center;
+	padding-top:		110px;
+	color:			#fff;
+}
+.icon .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+	border-radius: 125px;
+}
+.icon:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+.linkicons {
+	text-align: center;
+}
+#main {
+	color: green;
+	font-size: 70px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1260px) {
+
+body {
+	background-color: #F6E3CE;
+}
+
+}
