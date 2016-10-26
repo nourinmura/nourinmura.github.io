@@ -8,6 +8,9 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+img {
+	visibility: hidden;
+}
 .icon {
 	width:			256px;
 	height:			256px;
