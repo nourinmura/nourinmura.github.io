@@ -57,6 +57,9 @@ body {
 	background-position: 50% 70%;
 	margin-top: 30%;
 }
+img {
+	visibility: visible;
+}
 .icon {
 	border-radius: 0px;
 
